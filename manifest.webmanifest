@@ -1,0 +1,19 @@
+{
+  "name": "قلم — منصة إدارة المدارس والمعاهد",
+  "short_name": "قلم",
+  "description": "منصة إدارة المدارس والمعاهد الخاصة: الحضور والعلامات والسلوك والتواصل مع الأهل",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2F62C9",
+  "background_color": "#F5F8FC",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

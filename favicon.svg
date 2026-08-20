@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- أيقونة المتصفح: الكتاب-القلم من شعار «قلم» الثاني على لوحة بيضاء -->
+  <rect width="64" height="64" rx="15" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <g transform="translate(8 3) scale(0.4)">
+    <rect x="53" y="4" width="13" height="13" rx="2.5" fill="#1C3667"/>
+    <rect x="72" y="12" width="11" height="11" rx="2.2" fill="#8DC63F"/>
+    <rect x="38" y="16" width="10" height="10" rx="2" fill="#2E6BE5"/>
+    <rect x="60" y="24" width="8" height="8" rx="1.8" fill="#2E6BE5"/>
+    <path d="M20 56 C34 48 48 50 55 60 L55 92 C46 84 32 80 20 82 C16 74 16 64 20 56 Z" fill="#2E6BE5"/>
+    <path d="M100 56 C86 48 72 50 65 60 L65 92 C74 84 88 80 100 82 C104 74 104 64 100 56 Z" fill="#1C3667"/>
+    <circle cx="60" cy="47" r="9" fill="#1C3667"/>
+    <path d="M55 60 C57 55 63 55 65 60 L65 92 L55 92 Z" fill="#2E6BE5"/>
+    <path d="M44 96 L60 122 L76 96 C66 90 54 90 44 96 Z" fill="#1C3667"/>
+  </g>
+</svg>
