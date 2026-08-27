@@ -1,4 +1,0 @@
-const u="\uFEFF";function m(l){let e=String(l||"");e.startsWith(u)&&(e=e.slice(1));const i=[];let n="",t=[],r=!1,c=1,f=1;const a=()=>{t.push(n),n=""},d=()=>{a(),t.some(o=>o.trim()!=="")&&i.push({line:f,cells:t}),t=[]};for(let o=0;o<e.length;o++){const s=e[o];r?s==='"'?e[o+1]==='"'?(n+='"',o++):r=!1:(s===`
-`&&c++,n+=s):s==='"'?r=!0:s===","?a():s===`
-`?(d(),c++,f=c):s!=="\r"&&(n+=s)}return(n!==""||t.length)&&d(),i}function p(l){const e=String(l??"");return/[",\n\r]/.test(e)?`"${e.replace(/"/g,'""')}"`:e}function h(l){return l.map(e=>e.map(p).join(",")).join(`\r
-`)}function b(l,e){const i=new Blob([u+h(e)],{type:"text/csv;charset=utf-8"}),n=URL.createObjectURL(i),t=document.createElement("a");t.href=n,t.download=l,document.body.appendChild(t),t.click(),t.remove(),URL.revokeObjectURL(n)}export{b as d,m as p};
